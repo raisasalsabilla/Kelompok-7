@@ -1,0 +1,125 @@
+# Setup Kode - Crumella
+
+Folder ini menandakan proyek Crumella (Website Penjualan Cake & Dessert) siap masuk tahap development.
+
+## Struktur Rencana
+
+```text
+crumella/
+├── backend/
+│   ├── controllers/       # Logika alur sistem
+│   │   ├── auth/
+│   │   ├── products/
+│   │   ├── cart/
+│   │   ├── orders/
+│   │   ├── favorites/
+│   │   └── notifications/
+│   ├── models/             # Model data
+│   │   ├── User
+│   │   ├── Product
+│   │   ├── Category
+│   │   ├── Cart
+│   │   ├── Favorite
+│   │   ├── Order
+│   │   └── Notification
+│   ├── routes/             # Endpoint API
+│   └── config/             # Konfigurasi database & environment
+│
+├── frontend/
+│   ├── pages/              # Halaman aplikasi
+│   │   ├── login/
+│   │   ├── register/
+│   │   ├── home/
+│   │   ├── all-menu/
+│   │   ├── category/
+│   │   ├── product-detail/
+│   │   ├── cart/
+│   │   ├── checkout/
+│   │   ├── order-guide/
+│   │   ├── favorites/
+│   │   ├── notifications/
+│   │   ├── profile/
+│   │   ├── account-settings/
+│   │   └── help/
+│   ├── components/         # Komponen UI
+│   │   ├── navbar/
+│   │   ├── product-card/
+│   │   ├── search-bar/
+│   │   ├── category-tabs/
+│   │   └── notification-badge/
+│   └── assets/             # Gambar, icon & style
+│
+├── database/
+│   └── schema.sql          # Skema database
+│
+└── docs/                   # Dokumen project
+    ├── project-charter/
+    ├── figma-uiux/
+    ├── flowchart/
+    ├── erd/
+    └── architecture/
+```
+
+## Skema Database (Rencana)
+
+| Tabel           | Keterangan                                                        |
+| --------------- | ----------------------------------------------------------------- |
+| `users`         | Data pengguna (akun, profil, pengaturan akun)                     |
+| `categories`    | Data kategori produk (Cake, Cupcake, Brownies)                    |
+| `products`      | Data produk seperti nama, rasa, harga, deskripsi, foto dan stok   |
+| `carts`         | Keranjang belanja pengguna beserta item produk di dalamnya        |
+| `favorites`     | Produk yang disimpan pengguna sebagai favorit                     |
+| `orders`        | Data pesanan yang dibuat oleh pengguna                            |
+| `order_details` | Detail produk yang terdapat dalam setiap pesanan                  |
+| `notifications` | Notifikasi untuk pengguna (status pesanan, informasi)             |
+
+## Fitur Utama (Rencana)
+
+* Registrasi akun & login pengguna
+* Beranda
+* Semua menu produk
+* Kategori produk (Cake, Cupcake, Brownies)
+* Search produk
+* Detail produk (rasa, harga, tampilan)
+* Keranjang belanja (beberapa pesanan dibayar sekaligus)
+* Checkout
+* Cara pesanan
+* Favorit / simpan produk
+* Notifikasi
+* Profil / Tentang
+* Pengaturan akun
+* Bantuan
+
+## Alur Utama Sistem
+
+```text
+Buka Website
+  ↓
+Login  ←→  Registrasi Akun
+  ↓
+Beranda / Katalog Produk
+  ↓
+Search Produk / Pilih Kategori
+  ↓
+Detail Produk
+  ↓
+Tambah ke Keranjang  (opsional: Simpan ke Favorit)
+  ↓
+Checkout
+  ↓
+Pesanan Dibuat
+  ↓
+Notifikasi Pesanan
+```
+
+## Status
+
+* [x] Project charter disusun
+* [x] Struktur folder dirancang
+* [x] Skema database dirancang
+* [x] Fitur utama ditentukan
+* [x] Alur sistem dirancang
+* [ ] Desain UX/UI di Figma
+* [ ] Implementasi kode
+* [ ] Testing
+* [ ] Deployment
