@@ -68,5 +68,5 @@ Target kerja spesifik Sprint 1 sesuai batasan proyek pada Charter: perancangan U
 | Perhitungan Function Point         | Estimasi ukuran aplikasi berdasarkan fitur yang direncanakan                                                       | Yuwan Shabrina (Agile Methodology)                     |
 | Product Backlog & Sprint 1 Backlog | Menyusun daftar User Stories dan target Sprint 1                                                                   | Yuwan Shabrina (Agile Methodology)                     |
 | Rancangan UX/UI                    | Membuat desain Figma untuk halaman utama, Search Menu, Detail Produk, Checkout, dan Payment                        | Raisa Salsabilla (UX/UI Design)                        |
-| Rancangan Sistem                   | Membuat flowchart/diagram arsitektur/ERD dan daftar fitur yang siap dikerjakan                                     | Faradilatul Najwa (Project Setup) bersama anggota lain |
+| Rancangan Sistem                   | Membuat flowchart/diagram arsitektur/ERD dan daftar fitur yang siap dikerjakan                                     | Faradilatul Najwa (Project Setup) |
 | Inisialisasi Kode Proyek           | Setup struktur folder & boilerplate awal website                                                                   | Faradilatul Najwa (Project Setup)                      |
