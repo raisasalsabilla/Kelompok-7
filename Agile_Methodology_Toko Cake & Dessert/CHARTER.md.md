@@ -14,9 +14,11 @@
 | **Program Studi**       | Informatika                      |
 | **Informatika**         | Universitas Samudra              |
 
+
 **2. Latar Belakang**
 
 Ketika orang makin suka membeli makanan lewat internet karena praktis, dan cake/dessert sering dicari untuk ulang tahun atau acara keluarga. Terkadang pembeli sering bingung melihat pilihan rasa, harga, dan tampilan produk, lalu harus bertanya satu per satu ke penjual. Crumella dibuat sebagai website untuk melihat, membaca detail, dan memesan cake/dessert dengan mudah.
+
 
 **3. Tujuan Proyek**
 
@@ -28,6 +30,7 @@ Dalam hal ini, tujuan dari pembuatan website Crumella adalah :
 - Memungkinkan pembeli mengumpulkan beberapa pesanan di keranjang, lalu membayarnya sekaligus.
 - Menghadirkan website yang enak dilihat dan gampang dipakai, bahkan oleh pengguna baru.
 
+
 **4. Target Penggunaan**
 
 Target penggunaan website Crumella ini adalah :
@@ -38,6 +41,7 @@ Target penggunaan website Crumella ini adalah :
 - Mempercepat pemesanan, mulai dari memilih produk sampai membayar.
 - Memungkinkan pembeli mengumpulkan beberapa pesanan di keranjang, lalu membayarnya sekaligus.
 - Menghadirkan website yang enak dilihat dan gampang dipakai, bahkan oleh pengguna baru.
+
 
 **5. Ruang Lingkup**
 
@@ -51,9 +55,11 @@ Target penggunaan website Crumella ini adalah :
 - Payment
 - Profil
 
+
 **6. Alur Utama Aplikasi**
 
 Alur pengguna dalam website : **Buka Website** 🡪 **Login** 🡪 **Search Produk** 🡪 **Detail Produk** 🡪 **Checkout** 🡪 **Payment**
+
 
 **7. Batasan Proyek**
 
@@ -63,6 +69,7 @@ Pada tahap sprint 1 ini, proyek ini berfungsi dalam perancangan UX/UI, perencana
 - Cake
 - Brownies
 - Minuman
+
 
 **8. Hasil Yang Diharapkan**
 
@@ -74,6 +81,7 @@ Bagian hasil yang diharapkan adalah :
 - Rancangan sistem dan daftar fitur yang siap kerjakan.
 - Tersedia dasar yang cukup kuat dalam memulai membuat website di sprint.
 
+
 **9.Pembagian Tugas Anggota**
 
 Anggota kelompok 7 :
@@ -83,6 +91,7 @@ Anggota kelompok 7 :
 | Raisa Salsabilla (250504002)  | UX/UI Design          |
 | Faradilatul Najwa (250504015) | Project Setup         |
 | Yuwan Shabrina(250504026)     | Agile Methodology     |
+
 
 **10. Indikator Keberhasilan**
 
